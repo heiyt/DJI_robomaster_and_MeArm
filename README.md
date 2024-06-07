@@ -1,5 +1,6 @@
 # DJI_robomaster_and_MeArm
- heiyt's Graduation Design 
+ heiyt's Graduation Design /n
+ 开发平台，stm32用的是clion+cubemx；app用的是android studio
 ![image](https://github.com/heiyt/DJI_robomaster_and_MeArm/assets/103363450/ed9d53f3-9ef0-4b1f-9d0e-df3c961aa542)
 ![image](https://github.com/heiyt/DJI_robomaster_and_MeArm/assets/103363450/96b19e83-30d0-46e7-ac82-d85033e0ee15)
 ![image](https://github.com/heiyt/DJI_robomaster_and_MeArm/assets/103363450/442d870d-1025-4c38-bdb4-de692bdebc8d)
