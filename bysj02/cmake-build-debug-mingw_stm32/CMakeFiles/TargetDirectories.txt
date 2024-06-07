@@ -1,0 +1,3 @@
+D:/Projects/ClionProjects/bysj02/cmake-build-debug-mingw_stm32/CMakeFiles/bysj02.elf.dir
+D:/Projects/ClionProjects/bysj02/cmake-build-debug-mingw_stm32/CMakeFiles/edit_cache.dir
+D:/Projects/ClionProjects/bysj02/cmake-build-debug-mingw_stm32/CMakeFiles/rebuild_cache.dir
