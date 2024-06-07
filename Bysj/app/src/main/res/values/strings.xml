@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bysj</string>
+    <string-array name="floor_speed_list">
+        <item>16</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>0</item>
+<!--        <item>-8</item>-->
+<!--        <item>-9</item>-->
+<!--        <item>-10</item>-->
+<!--        <item>-11</item>-->
+<!--        <item>-12</item>-->
+<!--        <item>-13</item>-->
+<!--        <item>-14</item>-->
+<!--        <item>-15</item>-->
+<!--        <item>-16</item>-->
+    </string-array>
+</resources>

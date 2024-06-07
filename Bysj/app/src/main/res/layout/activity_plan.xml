@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanActivity">
+
+    <Button
+        android:id="@+id/right_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右前"
+        app:layout_constraintBottom_toTopOf="@+id/plan_right_button"
+        app:layout_constraintStart_toEndOf="@+id/plan_forward_button" />
+
+    <Button
+        android:id="@+id/plan_arm_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="220dp"
+        android:text="机械臂运动"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plan_zhua_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="20dp"
+        android:text="夹爪开关"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plan_begin_button"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:text="开始执行"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plan_zhua_button" />
+
+    <Button
+        android:id="@+id/plan_stop_button"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="120dp"
+        android:text="停止执行"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plan_zhua_button" />
+
+    <Button
+        android:id="@+id/plan_del_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="220dp"
+        android:text="删除指令"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plan_arm_button" />
+
+    <Button
+        android:id="@+id/plan_del_weight_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="220dp"
+        android:text="删除重量"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plan_arm_button" />
+
+    <Button
+        android:id="@+id/plan_forward_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:text="向前运动"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plan_left_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="230dp"
+        android:text="向左运动"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plan_right_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        android:text="向右运动"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plan_back_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:text="向后运动"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plan_forward_button" />
+
+    <Button
+        android:id="@+id/left_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左前"
+        app:layout_constraintBottom_toTopOf="@+id/plan_left_button"
+        app:layout_constraintEnd_toStartOf="@+id/plan_forward_button" />
+
+    <Button
+        android:id="@+id/left_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左后"
+        app:layout_constraintEnd_toStartOf="@+id/plan_back_button"
+        app:layout_constraintTop_toBottomOf="@+id/plan_left_button" />
+
+    <Button
+        android:id="@+id/right_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右后"
+        app:layout_constraintStart_toEndOf="@+id/plan_back_button"
+        app:layout_constraintTop_toBottomOf="@+id/plan_right_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="30dp"
+        android:background="#efffea"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plan_floor_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="底盘旋转"
+        app:layout_constraintBottom_toTopOf="@+id/plan_back_button"
+        app:layout_constraintEnd_toStartOf="@+id/plan_right_button"
+        app:layout_constraintStart_toEndOf="@+id/plan_left_button"
+        app:layout_constraintTop_toBottomOf="@+id/plan_forward_button" />
+
+    <Button
+        android:id="@+id/plan_floor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="底盘运动"
+        app:layout_constraintBottom_toTopOf="@+id/plan_arm_button"
+        app:layout_constraintEnd_toEndOf="@+id/plan_zhua_button"
+        app:layout_constraintStart_toStartOf="@+id/plan_arm_button"
+        app:layout_constraintTop_toBottomOf="@+id/plan_back_button" />
+
+    <TextView
+        android:id="@+id/Weight_Tv"
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:background="#ffc"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="机器人指令"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:text="货物重量"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/getWeight_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="测重"
+        app:layout_constraintBottom_toTopOf="@+id/plan_stop_button"
+        app:layout_constraintEnd_toStartOf="@+id/plan_zhua_button"
+        app:layout_constraintStart_toEndOf="@+id/plan_arm_button"
+        app:layout_constraintTop_toBottomOf="@+id/plan_floor_button"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
